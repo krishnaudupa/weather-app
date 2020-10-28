@@ -1,0 +1,130 @@
+/*..General HTML styles..*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.05rem;
+  /* border: 1px solid black; */
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/*...Header and Main body section...*/
+
+body {
+  width: 60%;
+  margin-top: 10vh;
+  margin-left: 15vw;
+  height: 75%;
+  background-size: cover;
+  background: linear-gradient(rgba(6, 231, 247, 1), rgba(221, 214, 243, 0.1));
+  /* background: linear-gradient(rgba(160, 67, 62, 0.6), rgba(221, 214, 243, 1)); */
+  /* background-image: url("./2.jpg"); */
+  background-size: cover;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #333333;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.container > * {
+  margin-bottom: 2rem;
+}
+
+/*...footer-section...*/
+
+.list-items {
+  font-size: 1.4rem;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+}
+
+.list {
+  padding-right: 1.8rem;
+  text-decoration: none;
+  color: rgb(255, 0, 98);
+  cursor: pointer;
+}
+
+.nav hr {
+  margin-top: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.credits {
+  color: #333333;
+  font-size: 1.1rem;
+}
+
+.nav {
+  margin-top: auto;
+}
+
+/*...Styling input form...*/
+
+input[type="text"] {
+  padding: 10px 20px;
+  margin-right: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.city-name-form button {
+  padding: 11px 30px;
+  font-size: 1.1rem;
+  color: white;
+  background-color: #4caf50;
+  cursor: pointer;
+  border: none;
+}
+
+.city-name-form button:hover {
+  background-color: #45a049;
+}
+
+.response {
+  margin: 30px 0;
+}
+
+/*...about me...*/
+
+.profile-pic {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.about-me {
+display: flex;
+align-items: center;
+}
+
+.profile-pic {
+  width: 200px;
+  align-self: center;
+  border-radius: 50%;
+  margin-right: 20px;
+  border: solid teal 1px;
+}
+
+.about-me-story {
+  align-items: flex-end;
+}
