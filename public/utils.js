@@ -8,7 +8,7 @@ formData.addEventListener('submit', function(e){
     e.preventDefault()
     const location = cityInput.value
     message.textContent = "Getting data..."
-    fetch(`weather?address=${location}`)
+    fetch(`/weather?address=${location}`)
     .then(res => res.json())
     .then(res => message.textContent = res.result)
 })
