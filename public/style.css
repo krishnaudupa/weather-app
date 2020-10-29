@@ -30,7 +30,7 @@ body {
   background-size: cover;
   background: linear-gradient(rgba(6, 231, 247, 1), rgba(221, 214, 243, 0.1));
   /* background: linear-gradient(rgba(160, 67, 62, 0.6), rgba(221, 214, 243, 1)); */
-  /* background-image: url("./2.jpg"); */
+  background-image: url("cloud.png");
   background-size: cover;
 }
 
